@@ -144,7 +144,7 @@ int main() {
   // Node node_4 = {4, std::vector<int>{1}};
   // Node node_6 = {6, std::vector<int>{3, 1}};
 
-  std::vector<Node> graph = {node_2, node_1, node_3, node_0, node_5,
+  std::vector<Node> graph = {node_3, node_1, node_2, node_0, node_5,
                              node_4, node_6, node_7, node_8};
 
   sortGraph(graph);
