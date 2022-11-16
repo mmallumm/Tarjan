@@ -1,7 +1,7 @@
 #include <algorithm>
 #include <functional>
 #include <iostream>
-#include <map>
+#include <unordered_map>
 #include <set>
 #include <vector>
 
@@ -11,7 +11,7 @@ struct Node {
 };
 
 namespace {
-typedef std::map<int, int> ColorDictionary;
+typedef std::unordered_map<int, int> ColorDictionary;
 typedef std::pair<int, const int> NodeColor;
 
 enum TarjanColor { WHITE = 0, BLACK = 1, GRAY = 2 };
